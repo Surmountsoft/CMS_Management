@@ -1,0 +1,26 @@
+{
+    "name": "csoftech/cms",
+    "description": "This is for cms management.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CSoftech\\Cms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahul Sharma",
+            "email": "rahul.sharma@surmountsoft.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CSoftech\\Cms\\CmsServiceProvider"
+            ]
+        }
+    }
+}
