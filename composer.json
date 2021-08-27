@@ -1,7 +1,7 @@
 {
     "name": "csoftech/cms",
     "description": "This is for cms management.",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
